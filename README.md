@@ -10,6 +10,7 @@ Ritmo è un'app desktop Windows con orologio locale e mondiale, timer a ripetizi
 - Timer con conto alla rovescia e cronometro con giri.
 - Orologi per Roma, Londra, New York, Tokyo e Sydney usando gli identificativi Windows dei fusi orari.
 - Widget desktop configurabili, con opzione per mantenerli in primo piano.
+- Controlli rapidi dall'area di notifica: avvio, pausa/ripresa, annullamento dell'avvio programmato e reset del timer a ripetizione.
 - Riduzione nell'area di notifica per continuare a funzionare in background.
 
 ## Requisiti
@@ -51,6 +52,7 @@ Ritmo is a Windows desktop app featuring local and world clocks, a schedulable r
 - Countdown timer and lap stopwatch.
 - Clocks for Rome, London, New York, Tokyo, and Sydney using Windows time-zone identifiers.
 - Configurable desktop widgets, with an option to keep them on top.
+- Quick controls from the system tray: start, pause/resume, cancel a scheduled start, and reset the repeating timer.
 - Minimize to the system tray and keep running in the background.
 
 ## Requirements
@@ -77,4 +79,5 @@ On first launch, the app stores its settings and state in its own folder. Local 
 ## Notes
 
 The project uses Windows Forms and requires no NuGet packages. Widgets and timers keep running while the main window is hidden in the system tray. To keep Ritmo available after restarting Windows, add it to Windows startup.
+
 
